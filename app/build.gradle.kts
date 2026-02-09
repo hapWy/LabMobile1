@@ -3,13 +3,13 @@ plugins {
 }
 
 android {
-    namespace = "com.example.labmobile1"
+    namespace = "com.example.lab1mobile"
     compileSdk {
         version = release(36)
     }
 
     defaultConfig {
-        applicationId = "com.example.labmobile1"
+        applicationId = "com.example.lab1mobile"
         minSdk = 24
         targetSdk = 36
         versionCode = 1
@@ -42,4 +42,5 @@ dependencies {
     testImplementation(libs.junit)
     androidTestImplementation(libs.androidx.junit)
     androidTestImplementation(libs.androidx.espresso.core)
+    implementation("androidx.cardview:cardview:1.0.0")
 }
